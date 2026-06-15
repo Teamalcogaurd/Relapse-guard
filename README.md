@@ -1,4 +1,4 @@
-# SoberShield
+# RelapseGuard
 
 Clean Expo SDK 54 mobile app scaffold for Expo Go, built with React Native, TypeScript, and expo-router.
 
