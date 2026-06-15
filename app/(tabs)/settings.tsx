@@ -14,8 +14,8 @@ export default function SettingsScreen() {
 
   const user = app?.user ?? null;
   const isLoggedIn = app?.isLoggedIn ?? false;
-  const displayName = user?.name || user?.fullName || user?.username || 'SoberShield User';
-  const userEmail = user?.email || 'user@sobershield.app';
+  const displayName = user?.name || user?.fullName || user?.username || 'RelapseGaurd User';
+  const userEmail = user?.email || 'user@relapsegaurd.app';
   const initial = displayName.charAt(0).toUpperCase();
 
   const handleLogout = async () => {

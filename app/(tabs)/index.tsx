@@ -162,7 +162,7 @@ export default function HomeScreen() {
                   <View style={styles.liveTextWrap}>
                     <Text style={styles.liveTitle}>Live Heart Rate</Text>
                     <Text style={styles.liveSubtitle} numberOfLines={1} ellipsizeMode="tail">
-                      {hardwareState.deviceName || 'SoberShield Watch'}
+                      {hardwareState.deviceName || 'RelapseGaurd Watch'}
                     </Text>
                   </View>
                 </View>

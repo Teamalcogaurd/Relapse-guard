@@ -11,7 +11,7 @@ import {
 import { SafeAreaView } from 'react-native-safe-area-context';
 import { router } from 'expo-router';
 
-function SoberShieldMark() {
+function RelapseGaurdMark() {
   return (
     <View style={styles.logoWrap}>
       <View style={styles.logoBadge}>
@@ -125,7 +125,7 @@ export default function OpeningScreen() {
                 },
               ]}
             />
-            <SoberShieldMark />
+            <RelapseGaurdMark />
           </Animated.View>
 
           <Animated.View
@@ -137,7 +137,7 @@ export default function OpeningScreen() {
               },
             ]}
           >
-            <Text style={styles.brand}>SoberShield</Text>
+            <Text style={styles.brand}>RelapseGaurd</Text>
             <Text style={styles.tagline}>
               A softer space for recovery, support, and steady progress.
             </Text>

@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "SoberShield",
-    "slug": "sobershield",
-    "scheme": "sobershield",
+    "name": "RelapseGaurd",
+    "slug": "relapsegaurd",
+    "scheme": "relapsegaurd",
     "version": "1.0.0",
     "orientation": "portrait",
     "userInterfaceStyle": "dark",
@@ -15,10 +15,10 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.sobershield.app"
+      "bundleIdentifier": "com.relapsegaurd.app"
     },
     "android": {
-      "package": "com.sobershield.app"
+      "package": "com.relapsegaurd.app"
     },
     "web": {
       "bundler": "metro"

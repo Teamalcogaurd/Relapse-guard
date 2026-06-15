@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const TOKEN_STORAGE_KEY = 'auth_tokens';
-const API_BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'https://api.sobershield.com';
+const API_BASE_URL = process.env.EXPO_PUBLIC_API_URL || 'https://api.relapsegaurd.com';
 
 export type AuthTokens = {
   accessToken: string;

@@ -68,7 +68,7 @@ export default function AppLaunchSplash() {
       </Animated.View>
 
       <Animated.View style={{ opacity: fade, transform: [{ translateY: floatY }] }}>
-        <Text style={styles.title}>SoberShield</Text>
+        <Text style={styles.title}>RelapseGaurd</Text>
         <Text style={styles.subtitle}>
           A softer space for recovery, support,{'\n'}and steady progress.
         </Text>

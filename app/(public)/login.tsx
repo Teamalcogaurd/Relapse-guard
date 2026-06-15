@@ -17,7 +17,7 @@ import { router } from 'expo-router';
 import { Ionicons } from '@expo/vector-icons';
 import { useApp } from '@/context/AppContext';
 
-function SoberShieldHeaderMark() {
+function RelapseGaurdHeaderMark() {
   return (
     <View style={styles.markWrap}>
       <View style={styles.markDot} />
@@ -106,7 +106,7 @@ export default function LoginScreen() {
 
     Keyboard.dismiss();
 
-    const account = { phone: `+91${phone}`, name: 'SoberShield User' };
+    const account = { phone: `+91${phone}`, name: 'RelapseGaurd User' };
     if (mode === 'signin') {
       login(account);
     } else {
@@ -145,9 +145,9 @@ export default function LoginScreen() {
               ]}
             >
               <View style={styles.headerArea}>
-                <SoberShieldHeaderMark />
+                <RelapseGaurdHeaderMark />
 
-                <Text style={styles.brand}>SoberShield</Text>
+                <Text style={styles.brand}>RelapseGaurd</Text>
                 <Text style={styles.brandText}>
                   A softer space for recovery, support, and steady progress.
                 </Text>

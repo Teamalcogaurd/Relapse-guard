@@ -11,7 +11,7 @@ const slides = [
   {
     eyebrow: 'Recovery support',
     title: 'A calm companion for recovery',
-    body: 'SoberShield helps you stay aware of how you feel, respond to cravings, and find support when you need it most.'
+    body: 'RelapseGaurd helps you stay aware of how you feel, respond to cravings, and find support when you need it most.'
   },
   {
     eyebrow: 'In difficult moments',

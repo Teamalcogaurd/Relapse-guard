@@ -25,7 +25,7 @@ export default function BrandLogo({
       ]}
     >
       <Image
-        source={require('../assets/images/sobershield-logo.png')}
+        source={require('../assets/images/relapsegaurd-logo.png')}
         style={[
           {
             width: size,
@@ -46,7 +46,7 @@ export default function BrandLogo({
             letterSpacing: -0.6,
           }}
         >
-          SoberShield
+          RelapseGaurd
         </Text>
       ) : null}
     </View>

@@ -15,7 +15,7 @@ export default function ProfileScreen() {
 
   const displayName = useMemo(
     () =>
-      user?.name || user?.fullName || user?.username || 'SoberShield User',
+      user?.name || user?.fullName || user?.username || 'RelapseGaurd User',
     [user]
   );
   const journalCount = journals.length;

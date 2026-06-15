@@ -74,7 +74,7 @@ export default function HardwareSyncScreen() {
       ).start();
 
       const timer = setTimeout(() => {
-        setFoundDevices(['SoberShield Watch X1']);
+        setFoundDevices(['RelapseGaurd Watch X1']);
         setIsScanning(false);
       }, 3500);
       return () => clearTimeout(timer);
